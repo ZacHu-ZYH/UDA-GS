@@ -15,8 +15,12 @@ class Linear_classifier(nn.Module):
         self.hidden_dim = hidden_dim
         self.dis1 = nn.Linear(input_dim, hidden_dim)
         self.dis2 = nn.Linear(hidden_dim, 3)
+        self.avg = nn.AdaptiveAvgPool2d(1)
 
     def forward(self, x):
+
+        x = self.avg(x)
+        x = x.view(-1,x.size(1))
         x = F.relu(self.dis1(x))
         x = self.dis2(x)
         x = torch.sigmoid(x)
@@ -30,7 +34,7 @@ def mttl(source, target,x_set,y_set,scale, input_dim=256, hidden_dim=512):
 
     # print('dd',reverse_src,reverse_tar)
     inputs = torch.cat([source,target],1)
-    print(inputs.shape)
+
     pred = adv_net(inputs)
     # pred_tar = adv_net(target)
     # print(pred_src, domain_src,pred_tar, domain_tar)

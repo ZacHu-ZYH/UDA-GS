@@ -685,10 +685,21 @@ def main():
             targets_u = torch.cat((targets_u0, targets_u1)).cuda().float()
             targets_t = torch.cat((targets_t0, targets_t1)).cuda().float()
     
-            lam = 0.9
+            lam = 1
+            lam2=0.5
             L_l2 = loss_calc(logits_t_s, labels.cuda(),weight=None) * (1-lam) + lam * loss_calc(logits_t_s,targets_t,weight=None)
+            unlabeled_weight = torch.sum(max_probs.ge(0.968).long() == 1).item() / np.size(np.array(targets_u.cpu()))
+            pixelWiseWeight = unlabeled_weight * torch.ones(max_probs.shape).cuda()
+            targets_u_w = torch.where(targets_u>0,targets_u,targets_u_w.float())
+            #pixelWiseWeight = torch.ones(max_probs.shape).cuda()
+            # if pixel_weight == "threshold_uniform":
+            #     unlabeled_weight = torch.sum(max_probs.ge(0.968).long() == 1).item() / np.size(np.array(targets_u.cpu()))
+            #     pixelWiseWeight = unlabeled_weight * torch.ones(max_probs.shape)
+            # elif pixel_weight == "threshold":
+            #     pixelWiseWeight = max_probs.ge(0.968).float()
+            # elif pixel_weight == False:
+            #     pixelWiseWeight = torch.ones(max_probs.shape)
 
-    
             if consistency_loss == 'MSE':   
                     unlabeled_weight = torch.sum(max_probs.ge(0.968).long() == 1).item() / np.size(np.array(targets_u.cpu()))
                     #pseudo_label = torch.cat((pseudo_label[1].unsqueeze(0),pseudo_label[0].unsqueeze(0)))
