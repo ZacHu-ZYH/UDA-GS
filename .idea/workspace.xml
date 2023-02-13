@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dae294b0-7daa-4cb6-a3be-8c1b88effc3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/UDA-GS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/configUDA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.pylint.d/data.target_4modal_dataset1.stats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/augmentations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/city_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/four_modal_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/target_4modal_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train_mix.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/TopK_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/adv_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/coral.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/cos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/crossentropy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/deep_supervision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/dice_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/kl_js.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/mmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/multi_task_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/mutual_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_functions/pair_dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ploting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/dice_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/metric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/misce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/palette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sync_batchnorm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sync_batchnorm/batchnorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sync_batchnorm/batchnorm_reimpl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sync_batchnorm/comm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sync_batchnorm/replicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sync_batchnorm/unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/transformmasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/transformsgpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/vit.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2LfcvEGOyI7PHKMB8hDBQ4BVUPR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UDA-GS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dae294b0-7daa-4cb6-a3be-8c1b88effc3c" name="Default Changelist" comment="" />
+      <created>1676265805073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676265805073</updated>
+      <workItem from="1676265810371" duration="4814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="834" y="410" width="273" height="219" key="Github.ShareDialog" timestamp="1676270673223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="834" y="410" width="273" height="219" key="Github.ShareDialog/-1440.0.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1676270673223" />
+    <state x="783" y="225" key="Github.UntrackedFilesDialog" timestamp="1676270682492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="783" y="225" key="Github.UntrackedFilesDialog/-1440.0.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1676270682492" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1676270729237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1440.0.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1676270729237" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1676270729237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1440.0.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1676270729237" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1676270729236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1440.0.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1676270729236" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1676270729237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1440.0.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1676270729237" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1676270585766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/-1440.0.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1676270585766" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UDA_GS$train.coverage" NAME="train Coverage Results" MODIFIED="1676268077544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+wandb==0.12.9
+pytorch==1.8.0
+scipy==1.2.1
+opencv-python==3.4.2
