@@ -1,5 +1,5 @@
 # UDA-GS
-Official implementation of "Generalize Model from Labeled BraTS to Local Unlabeled Datasets: A Cross-Center Multimodal Unsupervised Domain Adaptation Glioma Segmentation Framework". Submitted to IEEE TMI.
+Official implementation of "Generalize Model from Labeled BraTS to Local Unlabeled Datasets: A Cross-Center Multimodal Unsupervised Domain Adaptation Glioma Segmentation Framework". Submitted to Medical Image Analysis.
 
 > Authors: Zhaoyu Hu.
 
